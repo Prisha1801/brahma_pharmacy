@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import AboutCollege from "../../assets/about_college.png";
 
 const BVIOP = () => {
     return (
@@ -28,7 +29,7 @@ const BVIOP = () => {
                     >
                         <div className="relative rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.15)] border border-blue-100">
                             <img
-                                src="https://pharmacy.brahmavalley.edu.in/public/front_end/assets/img/1751533988_3606d2abaf5d56324fce.png"
+                                src={AboutCollege}
                                 alt="BVIOP Campus"
                                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500"
                             />

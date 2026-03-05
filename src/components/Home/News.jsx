@@ -2,10 +2,10 @@ import React from 'react';
 
 function News() {
     const newsItems = [
-        { src: '/public/news/news1.webp', alt: 'News & Events 1' },
-        { src: '/public/news/news2.webp', alt: 'News & Events 2' },
-        { src: '/public/news/news3.webp', alt: 'News & Events 3' },
-        { src: '/public/news/news4.webp', alt: 'News & Events 4' },
+        { src: '/news/news1.webp', alt: 'News & Events 1' },
+        { src: '/news/news2.webp', alt: 'News & Events 2' },
+        { src: '/news/news3.webp', alt: 'News & Events 3' },
+        { src: '/news/news4.webp', alt: 'News & Events 4' },
     ];
 
     return (
