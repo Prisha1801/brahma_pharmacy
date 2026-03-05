@@ -5,6 +5,12 @@ import './index.css'
 import App from './App.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
 
+// Disable right-click functionality
+document.addEventListener('contextmenu', (event) => event.preventDefault());
+
+// Disable copy functionality
+document.addEventListener('copy', (event) => event.preventDefault());
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
