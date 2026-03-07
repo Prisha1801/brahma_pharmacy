@@ -6,7 +6,6 @@ import Facilities from '../components/Home/Facilities';
 import CampusGallery from '../components/Home/CampusGallery';
 import KeyHighlights from '../components/Home/KeyHighlights';
 import SocialMedia from '../components/Home/SocialMedia';
-import TopRecruiters from '../components/Home/TopRecruiters';
 
 function Home() {
     return (
@@ -19,7 +18,6 @@ function Home() {
             <CampusGallery />
             <KeyHighlights />
             <SocialMedia />
-            <TopRecruiters />
         </>
     );
 }
